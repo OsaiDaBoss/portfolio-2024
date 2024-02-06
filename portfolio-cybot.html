@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio Details - Osaid Samman</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+    
+        <div class="row gy-4">
+    
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+    
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/cybot-1.png" alt="">
+                </div>
+    
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/cybot-2.jpg" alt="">
+                </div>
+    
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+    
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Project Information</h3>
+              <ul>
+                <li><strong>Category</strong>: Embedded Systems</li>
+                <li><strong>Class</strong>: CprE 288</li>
+                <li><strong>Project Date</strong>: April, 2023</li>
+              </ul>
+            </div>
+          </div>
+    
+        </div>
+    
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="portfolio-description">
+              <h2>Pizza Delivery Roomba</h2>
+              <p>
+                This project aimed to program the Roomba CyBOT to simulate a pizza delivery driver, which would navigate through a cluttered test environment to deliver two pizzas to two different locations. The challenge was to ensure that the AV could prioritize pizza delivery while avoiding collisions with other objects and obstacles in its path. UART communication and interrupts were used for control.
+                The Cybot movement was controlled using the Cybot_move function. ADC was predominantly used to accurately detect the object angle. Sonar was chosen as it provided more accurate distance measurements, although both ADC and sonar were considered for use. ADC proved effective in measuring the boundaries between two objects, while a cliff sensor was employed to prevent the vehicle from moving out of bounds.
+                Arrival at the destinations was marked by coming within 5 cm of a skinny pillar, which represented the pizza delivery stops, and a sound was played to indicate the "delivery" had been made. Putty was used for communication, and manual input was received from a keyboard connected to the CyBot and Putty.
+                Open Interface and iRobot Sensors, including Bumping, Cliff, Distance, and Angle Sensors, were utilized. The sound function in the oi was used to play music. Interrupts, specifically UART interrupts, were implemented.
+                Various components were involved in the project, such as ADC (Infrared Sensor) for object detection, Input Capture (Ping Sensor) for distance measurement, PWM for servo operation, and UART/WiFi for connecting the Cybot to Putty.
+              </p>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
